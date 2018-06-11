@@ -1,3 +1,9 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  root 'hamfamilylaw#home'
+
+  get '/home' => 'hamfamilylaw#home'
+  get '/about' => 'hamfamilylaw#about'
+  get '/practice' => 'hamfamilylaw#practice'
+  get '/testimonials' => 'hamfamilylaw#testimonials'
+  get '/contact' => 'hamfamilylaw#contact'
 end
