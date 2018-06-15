@@ -1,9 +1,103 @@
+html, body {
+    height: 100%;
+}
+
 .background {
-    background-image: url('SF.JPG');
-    background-attachment: fixed;
+    position: absolute;
+    background-image: url('SF2.JPG');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-attachment: fixed;
     background-position: center center;
-    height: 90vh;
+    background-size: cover;
+    min-height: 100%;
+    min-width: 100%;
+    overflow: auto;
+}
+
+.mask {
+    position: absolute;
+    background-color: rgba(0,130,130,0.5);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.title-box {
+    float: left;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1%;
+    width: 300px;
+    height: 300px;
+}
+
+.title-box img {
+    display: block;
+    margin: auto;
+    margin-top: 50px; 
+}
+
+.slogan {
+    font-family: 'Fanwood Text', serif;
+    font-size: 2.2em;
+    color: white;
+    padding: 3%;
+    padding-top: 200px;
+    text-align: center;
+}
+
+.home-text {
+    font-family: 'Fanwood Text', serif;
+    font-size: 1.8em;
+    color: black;
+    word-wrap: break-word;
+    max-width: 1000px;
+}
+
+.content {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 3%;
     width: 100%;
+    overflow: auto;
+}
+
+.content img {
+    margin-right: 30px;
+    margin-bottom: 20px;
+    box-shadow: 8px 8px 8px gray;
+}
+
+.footer {
+    background-color: rgba(0, 179, 179, 0.8);
+    padding: 3%;
+    width: 100%;
+}
+
+.disclaimer-box {
+    padding: 1%;
+    display: block;
+}
+
+.disclaimer-text {
+    font-family: 'Fanwood Text', serif;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.social-media {
+    width: 400px;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+.social-media-buttons {
+    height: 80px;
+    width: 80px;
+    padding: 20px;
+    float: left;
 }
