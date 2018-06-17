@@ -57,6 +57,7 @@ html, body {
 }
 
 .content {
+    font-family: 'Fanwood Text', serif;
     display: block;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 3%;
