@@ -27,7 +27,7 @@ html, body {
 
 .title-box {
     float: left;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.9);
     padding: 1%;
     width: 300px;
     height: 300px;
@@ -39,65 +39,180 @@ html, body {
     margin-top: 50px; 
 }
 
+.header-container {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
 .slogan {
     font-family: 'Fanwood Text', serif;
+    float: left;
     font-size: 2.2em;
     color: white;
-    padding: 3%;
-    padding-top: 200px;
     text-align: center;
+    margin: 100px;
+    margin-top: 200px;
 }
 
 .home-text {
-    font-family: 'Fanwood Text', serif;
-    font-size: 1.8em;
-    color: black;
-    word-wrap: break-word;
-    max-width: 1000px;
+    margin-left: 360px;
+    margin-bottom: 120px;
 }
 
-.content {
+.home-text p {
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+.content-background {
     display: block;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 3%;
+    /* background-color: rgba(255, 255, 255, 0.9); */
     width: 100%;
     overflow: auto;
 }
+.content {
+    font-family: 'Fanwood Text', serif;
+    font-size: 20px;
+    max-width: 1000px;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.9);
+    overflow: auto;
+    margin: auto;
+    margin-bottom: 100px;
+}
 
-.content img {
+.content .welcome-img {
+    position: absolute;
+    margin-left: -80px;
+    margin-top: -80px;
     margin-right: 30px;
     margin-bottom: 20px;
     box-shadow: 8px 8px 8px gray;
 }
 
 .footer {
-    background-color: rgba(0, 179, 179, 0.8);
-    padding: 3%;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 1%;
     width: 100%;
 }
 
 .disclaimer-box {
-    padding: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    max-width: 1000px;
+    margin: auto;
     display: block;
 }
 
 .disclaimer-text {
-    font-family: 'Fanwood Text', serif;
-    font-size: 14px;
-    line-height: 17px;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-size: 9px;
+    line-height: 15px;
+    text-align: center;
 }
 
 .social-media {
-    width: 400px;
-    padding: 1%;
+    width: 500px;
+    height: 60px;
     margin-left: auto;
     margin-right: auto;
     overflow: auto;
 }
 
 .social-media-buttons {
-    height: 80px;
-    width: 80px;
-    padding: 20px;
+    height: 40px;
+    width: 40px;
+    margin-left: 60px;
     float: left;
+}
+
+.social-media-buttons:hover {
+    opacity: 0.8;
+}
+
+.page-header {
+    float: left;
+    margin: 100px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.page-header.homepage-logo {
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 4s; /* Firefox < 16 */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+        -o-animation: fadein 4s; /* Opera < 12.1 */
+            animation: fadein 4s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.avvo-badge-container {
+    width: 33%;
+    margin-bottom: 20px;
+    float: left;
+    text-align: center;
+}
+
+.practice-img {
+    position: absolute;
+    margin-left: 600px;
+    box-shadow: -8px 8px 8px #696969;
+}
+
+.contact-img {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 300px;
+    box-shadow: -8px 8px 8px #696969;
+}
+
+.testimonials-img-top {
+    position: absolute;
+    margin-left: -100px;
+    box-shadow: 8px 8px 8px #696969;
+}
+
+.testimonials-img-bottom {
+    position: absolute;
+    margin-left: 600px;
+    box-shadow: -8px 8px 8px #696969;
+}
+
+.left-text {
+    width: 580px;
+}
+
+.right-text {
+    width: 600px;
+    margin-left: 300px;
 }
