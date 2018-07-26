@@ -6,13 +6,9 @@ git_source(:github) do |repo_name|
 end
 
 gem 'rails', '5.0.2'
-group :development, :test do
-  gem 'sqlite3'
-end
 
-group :production do
-  gem 'pg'
-end
+gem 'pg'
+
 
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
