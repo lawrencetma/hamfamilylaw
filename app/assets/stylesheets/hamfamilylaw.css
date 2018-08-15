@@ -282,7 +282,8 @@ html, body {
         width: 100%;
     }
 
-    .social-media-buttons {
+    .social-media .social-media-buttons {
+        display: block;
         margin-left: 25px;
     }
 
