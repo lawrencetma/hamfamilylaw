@@ -178,6 +178,11 @@ html, body {
     to   { opacity: 1; }
 }
 
+.avvo-badge {
+    height: 120px;
+    width: 155px;
+}
+
 .avvo-badge-container {
     width: 33%;
     margin-bottom: 20px;
@@ -223,4 +228,74 @@ html, body {
 .right-text {
     width: 600px;
     margin-left: 300px;
+}
+
+@media (max-width: 1000px) {
+    .header-container {
+        padding-top: 20%;
+        padding-left: 20%;
+    }
+    
+    .container img {
+        display: none;
+    }
+
+    .title-box {
+        width: 100%;
+    }
+    
+    .page-header .top-logo {
+        display: block;
+    }
+
+
+    .slogan {
+        display: none;
+    }
+
+    .welcome-img {
+        display: none;
+    }
+
+    .home-text {
+        margin-left: 0px;
+        margin-bottom: 50px;
+    }
+
+    .home-text p {
+        font-size: 18px;
+    }
+
+    .content {
+        padding: 10px;
+        margin-bottom: 50px;
+    }
+    .avvo-badge {
+        width: 100px;
+    }
+    
+    .disclaimer-text {
+        word-wrap: break-word;
+    }
+    
+    .social-media {
+        width: 100%;
+    }
+
+    .social-media-buttons {
+        margin-left: 25px;
+    }
+
+    .about-image {
+        margin-bottom: 50px;
+    }
+
+    .left-text {
+        width: 100%;
+    }
+    
+    .right-text {
+        width: 100%;
+        margin-left: 0px;
+    }
 }
