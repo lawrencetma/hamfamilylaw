@@ -287,8 +287,10 @@ html, body {
         margin-left: 25px;
     }
 
-    .about-image {
-        margin-bottom: 50px;
+    .container .about-image {
+        width: 150px;
+        display: block;
+        margin-bottom: 30px;
     }
 
     .left-text {
