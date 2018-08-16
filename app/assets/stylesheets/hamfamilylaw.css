@@ -78,10 +78,11 @@ html, body {
     max-width: 1000px;
     padding: 50px;
     background-color: rgba(255, 255, 255, 0.9);
-    overflow: auto;
     word-wrap: break-word;
     margin: auto;
     margin-bottom: 100px;
+    overflow-y: scroll; /* has to be scroll, not auto */
+    -webkit-overflow-scrolling: touch;
 }
 
 .content .welcome-img {
