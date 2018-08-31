@@ -185,7 +185,7 @@ html, body {
 }
 
 .avvo-badge-container {
-    width: 33%;
+    width: 25%;
     margin-bottom: 20px;
     float: left;
     text-align: center;
@@ -273,7 +273,7 @@ html, body {
         margin-bottom: 50px;
     }
     .avvo-badge {
-        width: 100px;
+        width: 110px;
     }
     
     .disclaimer-text {
@@ -302,5 +302,14 @@ html, body {
     .right-text {
         width: 100%;
         margin-left: 0px;
+    }
+}
+
+@media (max-width: 500px) {
+    .avvo-badge {
+        width: 125px;
+    }
+    .avvo-badge-container {
+        width: 50%;
     }
 }
