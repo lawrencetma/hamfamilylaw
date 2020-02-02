@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Hamfamilylaw</title>
+    <title>Family & Divorce Lawyer | Dublin, California | (501) 557-6946</title>
     <%= csrf_meta_tags %>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -13,10 +13,62 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156914887-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-156914887-1');
+    </script>
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Attorney",
+          "name": "Ham Family Law",
+          "image": "http://www.hamfamilylaw.com/assets/HamFamilyLogo.svg",
+          "@id": "",
+          "url": "http://www.hamfamilylaw.com/",
+          "telephone": "501-557-6946",
+          "priceRange": "$$",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "11501 Dublin Boulevard #200",
+            "addressLocality": "Dublin",
+            "addressRegion": "CA",
+            "postalCode": "94568",
+            "addressCountry": "US"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.6991079,
+            "longitude": -121.944045
+          },
+          "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "09:00",
+            "closes": "17:00"
+          },
+          "sameAs": [
+            "https://www.facebook.com/HamFamilyLaw/",
+            "https://www.linkedin.com/in/caroline-d-ham-58a9b963/"
+          ]
+        }
+    </script>
+
   </head>
 
   <body>
     <%= render partial: "navbar" %>
     <%= yield %>
+    <script type="text/javascript" src="//cdn.callrail.com/companies/183365943/16d7ff28ba8170b0cfb0/12/swap.js"></script>
   </body>
 </html>
