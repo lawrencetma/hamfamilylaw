@@ -6,6 +6,9 @@ class HamfamilylawController < ApplicationController
     def about
     end
 
+    def blog
+    end
+
     def practice
     end
 
